@@ -1,0 +1,27 @@
+cl_khr_subgroup_rotate on radeonsi
+cl_khr_subgroup_rotate on iris
+VK_EXT_shader_uniform_buffer_unsized_array on panvk
+VK_KHR_shader_constant_data on RADV
+VK_EXT_dynamic_rendering_unused_attachments on panvk
+protectedMemory support on RADV/GFX10+ and VEGA10
+VK_KHR_performance_query on RADV/GFX11
+VK_EXT_conservative_rasterization on panvk
+shaderImageGatherExtended on pvr
+static C++ stdlib required on rusticl to workaround applications using their own C++ stdlib
+VK_EXT_pipeline_protected_access on RADV
+VK_EXT_extended_dynamic_state3 on panvk
+GL_ARB_texture_query_lod on panfrost/v9+
+VK_KHR_maintenance11 on RADV
+OpenCL 3.1 support for rusticl on asahi, iris, radeonsi, llvmpipe and zink
+VK_KHR_workgroup_memory_explicit_layout on pvr
+VK_KHR_maintenance5 on pvr
+VK_KHR_shader_fma on RADV
+VK_KHR_shader_fma on nvk
+Support for G1-Ultra, G1-Premium and G1-Pro GPUs on Panfrost and PanVK
+VK_EXT_shader_atomic_float on nvk
+VK_{KHR,EXT}_index_type_uint8 on pvr
+VK_EXT_debug_marker in vulkan runtime
+VK_EXT_mesh_shader on NVK
+VK_KHR_device_fault on RADV
+VK_GOOGLE_display_timing for KHR_display on anv, pvr, radv, tu, v3dv
+VK_KHR_shader_abort on RADV
